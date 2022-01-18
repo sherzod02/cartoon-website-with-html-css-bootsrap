@@ -223,12 +223,17 @@
               <p class="fw-bold text-white">xyz@gmail.com</p>
             </div>
           </div>
-          <form class="col px-4 mb-5">
-            <h3 class="fw-bold text-white mb-3">GET IN TOUCH</h3>
-            <label for="email">
-              <input class="fw-bold mb-4 ps-3 py-1" type="text" name="email" placeholder="Your email">
-            </label>
-            <button class="fw-bold btn btn-primary text-white px-4 py-1">Subscribe</button>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-white fw-bold fs-4">Email address</label>
+              <input type="email" class="form-control fw-bold text-dark mb-1" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail" >
+              <div id="emailHelp" class="form-text text-white fw-bold mt-1">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label text-white fw-bold" for="exampleCheck1">Check me out</label>
+            </div>
+            <button id="contact" type="submit" class="btn btn-primary fw-bold">Submit</button>
           </form>
         </div>
       </div>
